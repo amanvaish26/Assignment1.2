@@ -1,0 +1,17 @@
+ (1)
+Simple examples of in-built functions are seq(), mean(), max(), sum(x) and paste(...) etc. 
+They are directly called by user written programs.
+We can create user-defined functions in R. 
+They are specific to what a user wants and once created they can be used like the built-in functions. 
+Below is an example of how a function is created and used.:
+new.function <- function(a) {
+   for(i in 1:a) {
+      b <- i^2
+      print(b)
+     
+     (2) The statement given below is true
+     
+     3(a)False
+      (b)True
+      (c)False
+      (d)True
